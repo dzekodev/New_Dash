@@ -1,0 +1,32 @@
+.Schedul-Table h1{
+    color: #000;
+    height: 20px;
+}
+.Schedul-Table p{
+    color: #000;
+}
+.Schedul-Table table{
+    width: 102.5%;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.Schedul-Table table tr,.Schedul-Table table th,.Schedul-Table table td{
+    padding: 20px;
+    color: #000;
+    border: 1px solid #E0BF4B;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(top ,#ededee 0%,#b1b0b0 100%);
+}
+.Schedul-Table table th:nth-child(1){
+}
+.Schedul-Table table tr td:first-child,.Schedul-Table table th:first-child{
+    width: 160px;
+    font-weight: 900;
+}
+.Schedul-Table table tr:first-child th,.Formers table tr:first-child th{
+    font-weight: 900;
+}
